@@ -88,3 +88,7 @@
     font-size: 13px;
     font-weight: 600;
 }
+
+.profile__body{
+    padding-bottom: 0px;
+}

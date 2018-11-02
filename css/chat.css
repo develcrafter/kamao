@@ -1,0 +1,139 @@
+.chat__top-header,
+.chat__top-header a{
+    background-color:#95b5d6ff;
+    color: black;
+}
+
+.chat__top-header{
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.chat{
+    background-color: #95b5d6ff;
+    height: 100vh;
+    width: 100%;
+    padding-top: 20px;
+   
+}
+
+.chat .date-divider{
+    text-align: center;
+    font-size: 11px;
+    color: rgba(0,0,0,0.5);
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.chat__message{
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 10px;
+}
+
+.chat__message-time{
+    font-size: 11px;
+    color: rgba(0,0,0,0.5);
+    padding-bottom: 5px;
+}
+
+.chat__message-body{
+    padding: 10px 5px;
+    font-weight: 600;
+    border-radius: 5%;
+
+}
+
+.chat__message--from-me{
+    justify-content: flex-end;
+}
+
+.chat__message--from-me .chat__message-body{
+    background-color:#fadb20ff;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+.chat__message--to-me{
+    margin-left: 5px;
+}
+
+.chat__message--to-me img{
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 10px;
+    align-self: flex-start;
+}
+
+.chat__message--to-me .chat__message-center{
+    display: flex;
+    flex-direction: column;
+}
+
+.chat__message--to-me .chat__message-username{
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.chat__message--to-me .chat__message-body{
+    background-color: #ffffff;
+    margin-right: 5px;
+}
+
+/* type-message */
+
+.chat__body{
+    padding-bottom: 50px;
+}
+
+.type-message{
+    background-color: #ededed;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    padding-right: 5px;
+}
+
+.type-message .fa-plus{
+    color: #b4b4b4;
+    margin-right: 10px;
+    /* border: 1px solid rgba(0,0,0,0.5); */
+}
+
+.type-message__input{
+    width: 90%;
+    display: flex;
+    align-items: center;
+}
+
+.type-message__input input{
+    width: 100%;
+    position: relative;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.type-message__input input:focus{
+    outline: none;
+}
+
+.type-message__input .fa-smile-wink{
+    position: absolute;
+    right: 60px;
+    color: #b4b4b4;
+}
+
+.type-message__input .fa-microphone{
+    padding: 12px;
+    background-color: #fadb20ff;
+    color: #67403d;
+    position: relative;
+    right: 5px;
+    cursor: pointer;
+}
