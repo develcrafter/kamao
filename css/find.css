@@ -1,0 +1,40 @@
+.find__options {
+    display: flex;
+    justify-content: space-between;
+    background-color: #eeeeee;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.find__options .find__option{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 35px;
+    padding-right: 5px;
+    color: #4d3131ff;
+}
+
+.find__option i{
+    margin-bottom: 15px;
+}
+
+.find__option span{
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.find__recommended .recommended__header{
+    border-bottom: 1px solid #ebebeb;
+    padding: 10px 15px;
+    font-size: 13px;
+    color: #929292;
+}
+
+.find__recommended .recommended__none{
+    border-bottom: 1px solid #ebebeb;
+    padding: 20px 0px;
+    text-align: center;
+    font-size: 15px;
+    color: #808080;
+}
