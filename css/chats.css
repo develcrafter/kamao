@@ -58,5 +58,14 @@
     border-radius: 50%;
     font-size: 20px;
     color: #4d3131ff;
-    box-shadow: 0px 3px 5px 1px rgb(0,0,0,0.2)
+    box-shadow: 0px 3px 5px 1px rgb(0,0,0,0.2);
+
+    transition: color .3s, background-color .3s, transform .3s ease-in-out;
+    cursor: pointer;
+}
+
+.chat-btn:hover{
+    color: white;
+    background-color: #4d3131ff;
+    transform: rotatex(1turn);
 }

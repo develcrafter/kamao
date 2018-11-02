@@ -13,6 +13,11 @@
     text-decoration: none;
     text-align: center;
     color: #bcbdb8ff;
+    transition: transform .2s linear;
+}
+
+.tab-bar .tab-bar__tab:hover{
+    transform: scale(1.1);
 }
 
 .tab-bar .tab-bar__tab i{
