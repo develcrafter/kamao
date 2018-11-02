@@ -1,0 +1,90 @@
+.top-header--transparent{
+    background-color: transparent;
+}
+
+/* .profile {
+    bottom: 0px;
+} */
+
+.profile__header{
+    height: 68vh;
+    width: 100%;
+    /* background-color: violet; */
+    background-image: url(https://i.redd.it/lpz8aqkt6gfz.jpg);
+    background-position: top center;
+    background-size: cover;
+    position: relative;
+    top: -63px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.profile__header-container{
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    bottom: -60px; */
+
+    text-align: center;
+    bottom: -60px;
+    position: relative;
+}
+
+.profile__header-container img{
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.profile__header-container .profile__header-title{
+    font-weight: 600;
+}
+
+.profile__body-container{
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile__body-container input{
+    text-align: center;
+    padding: 5px;
+}
+
+.profile__actions{
+    margin-top: 15px;
+    display: flex;
+}
+
+.profile__actions .profile__action{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.profile__action .profile__action-circle{
+    background-color: #f3f3f3;
+    padding: 15px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    margin-bottom: 10px;
+    background-color: #f3f3f3;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: #4c3638ff; */
+}
+
+.profile__action .profile__action-title{
+    font-size: 13px;
+    font-weight: 600;
+}
